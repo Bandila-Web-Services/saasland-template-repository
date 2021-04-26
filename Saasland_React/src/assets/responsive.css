@@ -175,7 +175,6 @@
         padding: 8px 20px;
     }
 }
-
 @media (max-width:1450px){
     .app_banner_area{
         background-size: cover;
@@ -367,7 +366,6 @@
         padding-left: 25px;
     }
 }
-
 @media (max-width:1350px){
     .payment_banner_content {
         max-width: 556px;
@@ -410,7 +408,6 @@
     }
     
 }
-
 @media (max-width:1199px){
     .s_service_item{
         padding: 50px 22px 40px;
@@ -1283,9 +1280,6 @@
         padding: 26px 30px;
     }
 }
-
-
-
 @media (max-width:991px){
     .navbar_fixed .header_area .menu_one {
         padding: 15px 0px;
@@ -2748,7 +2742,6 @@
         padding: 15px 0px;
     }
 }
-
 @media (max-width:768px){
     .sec_title br,.prototype_service_info h2 br,.hosting_title h2 br{
         display: none;
@@ -3550,7 +3543,6 @@
         padding-bottom: 70px;
     }
 }
-
 @media (max-width:650px){
     .about_img .about_img_slider .about_item.w45,.about_img .about_img_slider .about_item.w55{
         width: 100%;
@@ -3948,7 +3940,6 @@
         font-size: 85px;
     }
 }
-
 @media (max-width:576px){
     .security_features_inner .s_features_item,.security_features_inner{
         margin-left: 0;
@@ -4783,16 +4774,6 @@
         padding-bottom: 40px;
     }
 }
-
-@media (max-height:420px){
-    .navbar-collapse {
-        max-height: 310px;
-    }
-    .payment_banner_area{
-        min-height: 435px;
-    }
-}
-
 @media (max-width:480px){
     .feedback_area_three{
         height: auto;
@@ -4903,7 +4884,6 @@
         padding-right: 15px;
     }
 }
-
 @media (max-width:450px){
     .price_tab{
         max-width: 100%;
@@ -5136,7 +5116,14 @@
         font-size: 25px;
     }
 }
-
+@media (max-height:420px){
+    .navbar-collapse {
+        max-height: 310px;
+    }
+    .payment_banner_area{
+        min-height: 435px;
+    }
+}
 @media (max-width:400px){
     .header_area_six .header_top{
         display: none;
@@ -5146,6 +5133,5 @@
     }
     .payment_content_two .payment_img .payment_icon.icon_one,.payment_content_two .payment_img .payment_icon.icon_two,.payment_content_two .payment_img .payment_icon.icon_three,.payment_content_two .payment_img .payment_icon.icon_four,.payment_content_two .payment_img .payment_icon.icon_five,.payment_content_two .payment_img .payment_icon.icon_six{
         display: none;
-    }
-    
+    } 
 }
