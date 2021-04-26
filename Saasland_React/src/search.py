@@ -36,7 +36,7 @@ def main():
     # preps the all the initial values that will be used
     dir_path = os.path.dirname(os.path.realpath(__file__))
     inputFile = sys.argv[1]
-    inputFile = "AgencyAction.js" #TEST INPUT THAT MUST BE COMMENTED OUT
+    # inputFile = "AgencyAction.js" #TEST INPUT THAT MUST BE COMMENTED OUT
     outputDir = ""
     filePath = "mt"
     mainStyle = "mt"
