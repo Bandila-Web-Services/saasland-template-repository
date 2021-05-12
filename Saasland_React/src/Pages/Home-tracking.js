@@ -11,12 +11,19 @@ import FooterData from '../components/Footer/FooterData';
 const homesupport = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="menu_tracking" nClass="mr-auto" hbtnClass="tracking_btn"/>
+            TrackingBanner
             <TrackingBanner/> 
+            TrackingActivity
             <TrackingActivity/>
+            TrackingProduct
             <TrackingProduct/>
+            TrackingPrice
             <TrackingPrice/>
+            TrackingGetstarted
             <TrackingGetstarted/>
+            FooterSecurity
             <FooterSecurity FooterData={FooterData}/>
         </div>
     )

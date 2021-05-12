@@ -14,15 +14,23 @@ import FooterData from '../components/Footer/FooterData';
 
 const Startup = () => (
     <div className="body_wrapper">
+        CustomNavbar
         <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu"/>
+        StartupBanner
         <StartupBanner/> 
+        Sservice
         <Sservice/>
+        AgencyAbout
         <AgencyAbout ServiceData={ServiceData}/>
+        Features
         <Features aClass="agency_featured_area_two"/>
-        <Funfact fclass="fun_fact_area_two" manImg="home8/fact.png" tClass="t_color3" ftitle="Trusted" fdescription="Why I say old chap that is spiffing barney, nancy boy bleeder chimney pot Richard cheers the little rotter so I said, easy peasy buggered blower bevvy A bit of how's your father he nicked it arse over tit."
-        CnumberOne="7" CnumberTwo="100"/>
+        Funfact
+        <Funfact fclass="fun_fact_area_two" manImg="home8/fact.png" tClass="t_color3" ftitle="Trusted" fdescription="Why I say old chap that is spiffing barney, nancy boy bleeder chimney pot Richard cheers the little rotter so I said, easy peasy buggered blower bevvy A bit of how's your father he nicked it arse over tit."CnumberOne="7" CnumberTwo="100"/>
+        MarketingTestimonial
         <MarketingTestimonial BannerData={BannerData}/>
+        Partner
         <Partner pClass="partner_logo_area bg_color"/>
+        FooterTwo
         <FooterTwo FooterData={FooterData}/>
     </div>
 )

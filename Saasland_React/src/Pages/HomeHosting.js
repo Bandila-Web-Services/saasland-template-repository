@@ -16,17 +16,29 @@ import FooterData from '../components/Footer/FooterData';
 const HomeHosting =()=> {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="menu_four hosting_menu" nClass="w_menu" slogo="sticky_logo"/>
+            HostingBanner
             <HostingBanner/>
+            DomainSearch
             <DomainSearch/>
+            HostingService
             <HostingService/>
+            HostingFeatures
             <HostingFeatures/>
+            HostingFeaturesTwo
             <HostingFeaturesTwo/>
+            HostingAction
             <HostingAction aClass="h_action_area" aimage="action_img.png" colClass="col-lg-6" colClassTwo="col-lg-6" Atitle="Managed wordpress Hosting on all plans" Atext="Spiffing pukka show off show off pick your nose and blow off easy peasy buggered hotpot Harry, pardon me blatant.!"/>
+            HostingPlan
             <HostingPlan/>
+            HostingMap
             <HostingMap/>
+            HostingBlog
             <HostingBlog/>
+            HostingActionTwo
             <HostingActionTwo/>
+            FooterErp
             <FooterErp FooterData={FooterData}/>
         </div>
     )

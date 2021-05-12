@@ -14,15 +14,23 @@ import FooterData from '../components/Footer/FooterData';
 const HomesoftwareDark = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="menu_six" hbtnClass="cus_dark" cClass="custom_container p0" slogo="sticky_logo"/>
+            SoftwareDarkBanner
             <SoftwareDarkBanner/> 
+            DarkSoftwareService
             <DarkSoftwareService/>
+            SoftwareDarkAaction
             <SoftwareDarkAaction/>
+            SoftwareFeatures
             <SoftwareFeatures/>
+            SecurityFact
             <SecurityFact image="trust_img2.png"/>
-           
+            SecurityTestimonial
             <SecurityTestimonial/>
+            SecurityPartnerLogo
             <SecurityPartnerLogo sClass="partner_logo_area_three dk_bg_two" BannerData={BannerData}/>
+            PrototypeFooter
             <PrototypeFooter rclass={'footer_area_six'} FooterData={FooterData}/>
         </div>
     )

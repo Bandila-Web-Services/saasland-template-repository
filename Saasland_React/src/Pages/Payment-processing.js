@@ -12,12 +12,19 @@ import FooterData from '../components/Footer/FooterData';
 const Paymentprocessing = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu"/>
+            PaymentBanner
             <PaymentBanner/>
+            PaymentFeatures
             <PaymentFeatures/>
+            PaymentService
             <PaymentService ServiceData={ServiceData}/>
+            Paymentprocess
             <Paymentprocess/>
+            PaymentTestimonial
             <PaymentTestimonial/>
+            FooterThree
             <FooterThree FooterData={FooterData}/>
         </div>
     )

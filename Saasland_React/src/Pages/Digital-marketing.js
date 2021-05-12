@@ -15,13 +15,21 @@ import FooterData from '../components/Footer/FooterData';
 const DigitalMarketing = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="menu_four" cClass="custom_container p0" nClass="pl_120 mr-auto ml-auto" hbtnClass="menu_cus"/>
+            AgencyBanner
             <AgencyBanner BannerData={BannerData}/>
+            MarketingService
             <MarketingService ServiceData={ServiceData}/>
+            AgencyAbout
             <AgencyAbout ServiceData={ServiceData}/>
+            Features
             <Features/>
+            MarketingTestimonial
             <MarketingTestimonial BannerData={BannerData}/>
+            AgencyAction
             <AgencyAction/>
+            FooterTwo
             <FooterTwo FooterData={FooterData}/>
         </div>
     )

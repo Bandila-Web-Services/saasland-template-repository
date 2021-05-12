@@ -15,15 +15,25 @@ import FooterData from '../components/Footer/FooterData';
 const HomeAppShowcase = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu"  hbtnClass="er_btn"/>
+            AppBanner
             <AppBanner/>
+            AppFeaturesTwo
             <AppFeaturesTwo/>
+            AppFeatures
             <AppFeatures/>
+            AppWork
             <AppWork ServiceData={ServiceData}/>
+            AppTestimonial
             <AppTestimonial/>
+            ScreenshowCase
             <ScreenshowCase/>
+            AppGetstarted
             <AppGetstarted/>
+            AppTeam
             <AppTeam/>
+            FooterTwo
             <FooterTwo FooterData={FooterData}/>
         </div>
     )

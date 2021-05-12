@@ -11,11 +11,17 @@ import FooterData from '../components/Footer/FooterData';
 const HRManagement = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="menu_four" nClass="w_menu"/>
+            HRBanner
             <HRBanner/>
+            HRService
             <HRService ServiceData={ServiceData}/>
+            Video
             <Video/>
+            MarketingGetstarted
             <MarketingGetstarted/>
+            PrototypeFooter
             <PrototypeFooter rclass={'payment_footer_area_two'} FooterData={FooterData}/>
         </div>
     )

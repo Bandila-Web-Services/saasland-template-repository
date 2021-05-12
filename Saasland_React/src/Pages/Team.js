@@ -7,9 +7,13 @@ import FooterData from '../components/Footer/FooterData';
 const Team =()=>{
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto"/>
+            Breadcrumb
             <Breadcrumb breadcrumbClass="breadcrumb_area breadcrumb_area_three" imgName="Img-05.jpg" Ptitle="Our Team" Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"/>
+            Teams
             <Teams/>
+            FooterTwo
             <FooterTwo FooterData={FooterData}/>
         </div>
     )

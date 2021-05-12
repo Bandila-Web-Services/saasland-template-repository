@@ -4,6 +4,7 @@ import FooterTwo from '../components/Footer/FooterTwo';
 import FooterData from '../components/Footer/FooterData';
 const NotFound = () => (
   <div className="body_wrapper">
+    CustomNavbar
     <CustomNavbar hbtnClass="new_btn" />
     <section className="error_two_area">
       <div className="container flex">
@@ -23,6 +24,7 @@ const NotFound = () => (
         </div>
       </div>
     </section>
+    FooterTwo
     <FooterTwo FooterData={FooterData} />
   </div>
 );

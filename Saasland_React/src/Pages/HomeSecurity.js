@@ -15,16 +15,27 @@ import FooterData from '../components/Footer/FooterData';
 const HomeSecurity =()=> {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="menu_eight" nClass="w_menu" slogo="sticky_logo" hbtnClass="security_btn"/>
+            SecurityBanner
             <SecurityBanner/>
+            SecurityFeatures
             <SecurityFeatures/>
+            SecurityPowerFeatures
             <SecurityPowerFeatures/>
+            SecurityService
             <SecurityService/>
+            SequrityPrice
             <SequrityPrice/>
+            Analyticeslist
             <Analyticeslist/>
+            SecurityCustomerLogo
             <SecurityCustomerLogo/>
+            SecurityIntegration
             <SecurityIntegration/>
+            SecurityAction
             <SecurityAction/>
+            FooterSecurity
             <FooterSecurity FooterData={FooterData}/>
         </div>
     )

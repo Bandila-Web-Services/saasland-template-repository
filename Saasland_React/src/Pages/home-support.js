@@ -15,15 +15,25 @@ import FooterData from '../components/Footer/FooterData';
 const homesupport = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="menu_four" hbtnClass="d-none"/>
+            SupportBanner
             <SupportBanner/> 
+            SupportPartnerlogo
             <SupportPartnerlogo BannerData={BannerData}/>
+            SupportItem
             <SupportItem/>
+            Designtab
             <Designtab/>
+            SupportIntegration
             <SupportIntegration/>
+            Price
             <Price/>
+            MarketingTestimonial
             <MarketingTestimonial BannerData={BannerData}/>
+            SupportSubscribe
             <SupportSubscribe/>
+            FooterSecurity
             <FooterSecurity FooterData={FooterData}/>
         </div>
     )

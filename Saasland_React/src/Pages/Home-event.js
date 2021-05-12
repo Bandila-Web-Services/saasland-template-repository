@@ -18,24 +18,38 @@ import FooterData from "../components/Footer/FooterData";
 const homesupport = () => {
   return (
     <div className="body_wrapper">
+      CustomNavbar
       <CustomNavbar
         mClass="menu_four hosting_menu"
         nClass="w_menu m-auto"
         slogo="sticky_logo"
         hbtnClass="event_btn"
       />
+      EventBanner
       <EventBanner />
+      EventCount
       <EventCount />
+      EventAbout
       <EventAbout />
+      EventTeam
       <EventTeam />
+      EventFeatures
       <EventFeatures />
+      EventDetails
       <EventDetails />
+      ScheduleTab
       <ScheduleTab />
+      EventPrice
       <EventPrice />
+      EventFact
       <EventFact />
+      Eventgallery
       <Eventgallery />
+      EventSponser
       <EventSponser />
+      EventLocation
       <EventLocation />
+      FooterErp
       <FooterErp fClass="event_footer_area" FooterData={FooterData} />
     </div>
   );

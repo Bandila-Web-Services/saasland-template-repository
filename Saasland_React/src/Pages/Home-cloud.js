@@ -14,15 +14,25 @@ import FooterData from '../components/Footer/FooterData';
 const HomeCloud = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive"/>
+            CloudBanner
             <CloudBanner/>
+            CloudService
             <CloudService/>
+            CloudFeatures
             <CloudFeatures/>
+            CloudServiceTab
             <CloudServiceTab/>
+            CloudFeaturesTwo
             <CloudFeaturesTwo/>
+            DeveloperTab
             <DeveloperTab/>
+            Partner
             <Partner pClass="partner_logo_area_two" pClasst="pt-0 mb-0"/>
+            ServiceSubscribe
             <ServiceSubscribe/>
+            FooterTwo
             <FooterTwo fClass="pt_150" FooterData={FooterData}/>
         </div>
     )

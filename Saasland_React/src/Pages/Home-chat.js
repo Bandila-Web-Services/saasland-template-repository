@@ -11,20 +11,29 @@ import FooterData from "../components/Footer/FooterData";
 const homechat = () => {
   return (
     <div className="body_wrapper">
+      CustomNavbar
       <CustomNavbar
         nClass="m-auto"
         hbtnClass="new_btn"
       />
+      ChatBanner
       <ChatBanner />
+      CoreFeatures
       <CoreFeatures />
+      ChatFeatures
       <ChatFeatures rowClass='flex-row-reverse' pClass="pr_70" col1="col-lg-6 offset-lg-1" col2="col-lg-5" icon="chat_icon.png" img1="dot.png" img2="chat_02.png" img3="chat_01.png" titleSmall="Move deals" titlebig="through your funnel – fast"
       p="Real-time tools and rich insights mean our support solution amplifies your team for an unbeatable experience." url="#"/>
+      ChatFeatures
       <ChatFeatures  pClass="pl_70" col1="col-lg-6" col2="col-lg-5 offset-lg-1" icon="video_icon.png" img1="dot.png" img2="skyp_1.png" img3="skyp_2.png" titleSmall="First ever" titlebig="Video Calling Support"
       p="Real-time tools and rich insights mean our support solution amplifies your team for an unbeatable experience." url="#"/>
+      ChatFeatures
       <ChatFeatures rowClass='flex-row-reverse' pClass="pr_60" col1="col-lg-6 offset-lg-1" col2="col-lg-5" icon="dashboard.png" img1="dot.png" img2="support_dashboard.jpg" img3="skyp_2.png" titleSmall="Dedicated" titlebig="Dashboard Support"
       p="Real-time tools and rich insights mean our support solution amplifies your team for an unbeatable experience." url="#"/>
+      ChatIntegration
       <ChatIntegration />
+      ChatClients
       <ChatClients/>
+      FooterErp
       <FooterErp fClass="event_footer_area" FooterData={FooterData} />
     </div>
   );

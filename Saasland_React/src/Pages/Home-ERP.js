@@ -14,15 +14,25 @@ import FooterData from '../components/Footer/FooterData';
 const Homeerp = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar mClass="erp_menu" hbtnClass="er_btn" nClass="mr-auto"/>
+            HomeERP
             <HomeERP/> 
+            ErpService
             <ErpService/>
+            ErpAction
             <ErpAction/>
+            ErpFeatures
             <ErpFeatures/>
+            Erpanalytics
             <Erpanalytics/>
+            ErpCustomerlogo
             <ErpCustomerlogo/>
+            ErpTestimonial
             <ErpTestimonial/>
+            ErpActionTwo
             <ErpActionTwo/>
+            FooterErp
             <FooterErp fClass="h_footer_dark_two" FooterData={FooterData}/>
         </div>
     )

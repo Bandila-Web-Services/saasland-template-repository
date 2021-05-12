@@ -15,15 +15,25 @@ import FooterData from '../components/Footer/FooterData';
 const Landing = () => {
     return(
         <div className="body_wrapper">
+            OnepageMenu
             <OnepageMenu slogo="sticky_logo" mClass="menu_four" nClass="w_menu" hbtnClass="btn_get_radious menu_custfive"/>
+            AppBanner
             <AppBanner/>
+            AppFeaturesTwo
             <AppFeaturesTwo/>
+            AppFeatures
             <AppFeatures/>
+            AppWork
             <AppWork ServiceData={ServiceData}/>
+            AppTestimonial
             <AppTestimonial/>
+            ScreenshowCase
             <ScreenshowCase/>
+            AppGetstarted
             <AppGetstarted/>
+            AppTeam
             <AppTeam/>
+            FooterTwo
             <FooterTwo FooterData={FooterData}/>
         </div>
     )

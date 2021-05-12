@@ -12,12 +12,19 @@ import FooterData from '../components/Footer/FooterData';
 const Service = () => {
     return(
         <div className="body_wrapper">
+            CustomNavbar
             <CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto"/>
+            Breadcrumb
             <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Our services" Pdescription="Why I say old chap that is spiffing off his nut arse pear shaped plastered Jeffrey bodge barney some dodgy.!!"/>
+            HRService
             <HRService ServiceData={ServiceData}/>
+            PrototypeService
             <PrototypeService/>
+            Partner
             <Partner pClass="partner_logo_area_two" pClasst="pt-0 mb-0"/>
+            ServiceSubscribe
             <ServiceSubscribe sClass="s_form_info_two"/>
+            FooterTwo
             <FooterTwo fClass="pt_150" FooterData={FooterData}/>
         </div>
     )
