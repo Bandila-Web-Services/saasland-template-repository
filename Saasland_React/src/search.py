@@ -143,18 +143,21 @@ def main():
         print("----------response.css----------")
         classFound = False
         for index,  line in enumerate(file_contents2):
-            
+            #print(line.find("."+item))
             if(line.find("."+item) != -1):
                 nonEmptyOutput = True
                 classFound = True
                 mediaQuery = MediaQueryGenerator(index)
                 outputArray.append(mediaQuery)
+                print(mediaQuery, index , line)
                 print(str(index) + ": " + mediaQuery[:len(mediaQuery)-1])
                 outputArray.append(line)
                 print(str(index) + ": " + line[:len(line)-1])
+
             elif(line.find("}") == -1 and classFound == True):
                 outputArray.append(line)
                 print(str(index) + ": " + line[:len(line)-1])
+
             elif(line.find("}") != -1 and classFound == True):
                 outputArray.append(line)
                 print(str(index) + ": " + line[:len(line)-1])
